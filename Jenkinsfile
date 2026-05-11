@@ -5,7 +5,7 @@ maven 'Maven'}
 stages {
 stage('Checkout') {
 steps {
-git branch: 'master', url: 'https://github.com/Raja/MyMavenWebApp.git'
+git branch: 'master', url: 'https://github.com/Rajathaaa/MyMavenWebApp_test2.git'
 }
 }
 stage('Build') {
